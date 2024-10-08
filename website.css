@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    ul,ol,li{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+        /* color: #000; */
+    }
+    .col-1{
+        width: 8.33%;
+    }
+    .col-2{
+        width: 16.66%;
+    }
+    .col-3{
+        width:25% ;
+    }
+    .col-4{
+        width: 33.32%;
+    }
+    .col-5{
+        width: 41.65%;
+    }
+    .col-6{
+        width: 50%;
+    }
+    .col-7{
+        width: 58.31%;
+    }
+    .col-8{
+        width: 66.64%;
+    }
+    .col-9{
+        width: 75%;
+    }
+    .col-10{
+        width: 83.33%;
+    }
+    .col-11{
+        width: 91.63%;
+    }
+    .col-12{
+        width: 100%;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+        
+    .mt-10{
+        margin-top: 10px;
+        padding: 20px;
+        color: #485664;
+    }
+    .se{
+        text-align: center;
+        font-size: 180%;
+        color: white;
+    }
+    .je{
+        padding-left: 20px;
+        justify-content: space-evenly;
+        padding-left: 50px;
+    }
+    .menu a{
+        color:#485664;
+    }
+    .da{
+        background-image: url('contract.jpeg');
+        background-position: center;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .content{
+        text-align: center;
+        margin-top: 10%;
+        font-size: 250%;
+        color: white;
+    }
+    .active{
+        color: gold;
+        font-size: 300%;       
+        padding-bottom: 15px;
+    }
+
+    p{
+        text-align: center;
+        padding-left: 30%;
+        padding-right: 30%;
+        font-size: 125%;
+    }
+
+    .bott{
+        margin-top: 30px;
+        padding-left: 48%;
+    }
+
+    .btn{
+        border: 1px  solid goldenrod;
+        border-style: solid;
+        padding: 5px 20px;
+        transition: 0.5 ease;
+        font-size: 18px;
+        text-decoration: none;
+        border-radius: 15px;
+    }
+
+    .btn:hover{
+        background-color: goldenrod;
+    }
